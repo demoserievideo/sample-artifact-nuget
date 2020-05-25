@@ -1,4 +1,4 @@
-name: .NET Core
+name: .Net Core Package
 
 on:
   push:
@@ -21,4 +21,7 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build 
+    
+    - run: dotnet nuget push /home/runner/work/sample-artifact-nuget/sample-artifact-nuget/bin/Debug/SampleArtifact.1.0.0.nupkg -k ${{ secrets.GITHUB_TOKEN }} -s https://nuget.pkg.github.com/demoserievideo/index.json
+
     
