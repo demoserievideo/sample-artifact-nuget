@@ -27,6 +27,6 @@ jobs:
     - name: Build
       run: dotnet build 
     
-    - run: dotnet nuget push ./**/*.nupkg --skip-duplicate --no-symbols true
+    - run: dotnet nuget push ./**/*.nupkg --skip-duplicate --no-symbols true -s https://nuget.pkg.github.com/demoserievideo/index.json -k ${{ secrets.GITHUB_TOKEN }}
 
     
