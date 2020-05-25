@@ -8,7 +8,7 @@
     <Authors>Julio Arruda</Authors>
     <Company>Microsoft MVP</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/demoserievideo/sample-artifact-nuget/index.json</RepositoryUrl>
+    <RepositoryUrl>https://github.com/demoserievideo/sample-artifact-nuget</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
