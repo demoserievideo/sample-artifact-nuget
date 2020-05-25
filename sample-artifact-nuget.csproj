@@ -8,6 +8,7 @@
     <Authors>Julio Arruda</Authors>
     <Company>Microsoft MVP</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://nuget.pkg.github.com/demoserievideo/index.json</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
